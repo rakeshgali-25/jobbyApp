@@ -1,0 +1,44 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  background-color: #202020;
+  height: 80px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.website-logo {
+  height: 35px;
+}
+
+.para-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.para2 {
+  font-family: Roboto;
+  font-size: 25px;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.logout-button {
+  background-color: #6366f1;
+  border-radius: 10px;
+  color: #f8fafc;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: Roboto;
+  font-weight: 600;
+  border: none;
+}

@@ -1,0 +1,92 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: white;
+}
+
+.upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.job-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.package-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #f1f5f9;
+}
+
+.company-logo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.para {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 20px;
+  text-align: start;
+}
+
+.line-break {
+  width: 100%;
+}
+
+.star {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

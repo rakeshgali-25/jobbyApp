@@ -1,0 +1,45 @@
+.job-details-container {
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.job-details-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  list-style: none;
+
+  width: 100%;
+
+  padding: 20px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  width: 20%;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.skill-icon {
+  height: 70px;
+}
